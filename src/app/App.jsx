@@ -4,10 +4,10 @@ class App extends Component {
     state = {
         modal: false,
         submit: true,
-	}
+    }
 
     render() {
-		const gg;
+        let gg
         return <div>Hello</div>
     }
 }
