@@ -7,7 +7,7 @@ class App extends Component {
     }
 
     render() {
-        let gg
+        const gg;
         return <div>Hello</div>
     }
 }
