@@ -1,0 +1,37 @@
+{
+    "name": "react-draft",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "eslint-config-prettier": "^3.1.0",
+        "eslint-plugin-prettier": "^3.0.0",
+        "husky": "^1.1.2",
+        "lint-staged": "^7.3.0",
+        "prettier": "^1.14.3",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-scripts": "2.0.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "precommit": "lint-staged",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "lint-staged": {
+        "*.{js, jsx}": [
+            "prettier --write",
+            "git add"
+        ]
+    }
+}
