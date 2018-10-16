@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 
+const TestComponent = () => <p>просто render</p>
+
 class App extends Component {
     state = {
         modal: false,
@@ -7,7 +9,6 @@ class App extends Component {
     }
 
     render() {
-        const gg;
         return <div>Hello</div>
     }
 }
