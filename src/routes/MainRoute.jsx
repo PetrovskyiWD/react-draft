@@ -12,11 +12,9 @@ const MainRoute = () => {
 			<Route
 				path="/(.+)"
 				render={() => (
-					<React.Fragment>
-						<Switch>
-							<Route path="/football" component={FootballTournament} />
-						</Switch>
-					</React.Fragment>
+					<Switch>
+						<Route path="/football" component={FootballTournament} />
+					</Switch>
 				)}
 			/>
 		</React.Fragment>

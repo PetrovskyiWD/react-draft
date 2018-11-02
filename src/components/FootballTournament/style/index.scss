@@ -1,0 +1,42 @@
+.football-menu {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../../../static/img/menu-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	ul {
+		list-style: none;
+		li {
+			&+ li { margin-top: 30px; }
+			.btn {
+				padding: 20px 0;
+				width: 300px;
+				background-color: transparent;
+				color: #fff;
+				font-weight: bold;
+				font-size: 20px;
+				border: 3px solid #fff;
+				border-radius: 30px;
+				cursor: pointer;
+				&:hover {
+					background-color: #529351;
+					color: #fff;
+					border: 3px solid #529351;
+				}
+			}
+		}
+	}
+}
+
+.game-wrap {
+	min-height: 100vh;
+	background-image: url('../../../static/img/stadium.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	.players-list {
+		padding: 50px 0 0 50px;
+	}
+}

@@ -4,7 +4,7 @@ import { List as SemanticList, Header } from 'semantic-ui-react'
 
 const List = () => {
 	return (
-		<SemanticList className="projects-list">
+		<SemanticList className="projects-list" bulleted>
 			<Header>Projects list</Header>
 			<SemanticList.Item as={Link} to="/football">
 				Football Tournament
